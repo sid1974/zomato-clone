@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Metrophobic&family=Montserrat:ital,wght@0,300;0,400;0,800;0,900;1,300;1,800&family=Nunito:wght@200&family=Poiret+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Metrophobic', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 90vh;
+    
+}
+.img{
+    width: 100%;
+    height: 80vh;
+}
+.nav-bar {
+    width: 100%;
+    height: 7rem;
+    position: absolute;
+    top: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+    
+}
+.nav-bar ul{
+    width:100%;
+    height: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    right: 6rem;
+    
+    
+}
+.nav-bar ul li{
+    margin: 1.5rem;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight:lighter;
+    font-size: 1.3rem;
+    letter-spacing: 0.3px;
+}
+.logo{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+.logo img{
+    width: 20%;
+}
+.logo h1{
+    margin: 20px;
+    color: white;
+    font-weight:lighter;
+    font-size: 2.3rem;
+    letter-spacing: 0.3px;
+}
+.container-1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.8rem;
+    margin-bottom: 3.8rem;
+}
+.h1{
+    margin-bottom: 3.8rem;
+}
+.h1 h1{
+    font-weight:lighter;
+    font-size: 2.3rem;
+    letter-spacing: 0.3px;
+}
+.h2 {
+    width:80%;
+    text-align: center;
+
+}
+.h2 h2{
+    font-weight:lighter;
+    color: rgb(129, 126, 126);
+    letter-spacing: 0.2px;
+    font-size:1.4rem ;
+    line-height: 2rem;
+}
+.boxes{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+
+}
+.box{
+    border: 0.2px solid rgb(221, 219, 219);
+    margin: 1rem;
+    width:25%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.box:hover{
+     box-shadow: 2px 3px 3px 0px rgba(151, 148, 148, 0.2);
+ 
+} 
+.box h3{
+    font-weight: lighter;
+}
+.box i{
+    color: rgb(140, 137, 137);
+
+}
+.box-1{
+    
+    width: 32%;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1.6rem;
+    margin-bottom: -2.2rem;
+    
+    padding: 0;
+}
+.box-1 .h1 h1{
+    font-weight: bolder;
+}
+
+
+.boxes-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    
+
+}
+.box-2{
+    
+    border: 0.2px solid rgb(221, 219, 219);
+    margin: 1rem;
+    width:25%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img-1{
+   
+    width: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.img-1 img{
+    width: 50px;
+}
+.img-1 .h3{
+    margin-left: 1rem;
+}
+.box-2:hover{
+    box-shadow: 2px 3px 3px 0px rgba(151, 148, 148, 0.2);
+
+} 
+.box-2 h3{
+    font-weight: lighter;
+}
+.box-2 i{
+    color: rgb(140, 137, 137);
+
+}
+
+
+
+footer{
+    
+    padding: 2px;
+    background: rgb(246, 243, 243);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    
+    
+    
+}
+.footer-1{
+    
+    display: flex;
+    justify-content:center;
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+    
+    
+}
+.footer-zomato-img{
+    
+    margin: 2px;
+}
+.footer-zomato-img img{
+    width:70%;
+}
+
+.footer-1a{
+   
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content:space-evenly;
+    align-items: center;
+    width: 50%;
+}
+.footer-india{
+    border: 0.2px solid rgb(221, 219, 219);
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    
+    
+}
+.footer-india h3{
+    font-weight: lighter;
+    margin:0 10px 0 10px;
+}
+.footer-india img{
+    width: 30px;
+}
+.footer-2 ul  h2{
+    font-size: 1rem;
+    
+    
+}
+.footer-2{
+    
+    width: 80%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.footer-2 ul li {
+    list-style: none;
+    margin:10px;
+    cursor: pointer;
+}
+.footer-2 .social{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav-bar .bars i{
+    color: white;
+    display: none;
+    margin-left: 10px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    
+}
+
+
+/*------Media querryyyy-----*/
+
+
+@media (max-width:800px){
+    .nav-bar ul li a{
+        display: none;
+    }
+    
+    .nav-bar .bars i{
+        color: white;
+        display: block;
+        cursor: pointer;
+        
+        
+    }
+    .header .nav-bar .bars {
+        margin-right: 20px;
+        
+    }    
+    .header .img {
+        width: 100%; 
+        height: 60vh;
+       
+             
+    }
+    /*------js support----*/
+
+    
+}
+@media (max-width:700px){
+    .footer-1{
+        flex-direction: column;
+        
+    }
+    .footer-zomato-img img{
+        width:30%;
+        margin-bottom: 10px;
+    }
+    .footer-1a{
+        margin-left: -20px;
+        width: 55%;
+    }
+    .box-1 {
+        margin-left: 50px;
+    }
+    .footer-2 ul li{
+        font-size: 0.8rem;
+    }
+    .footer-2 ul li h2{
+        font-size: 0.8rem;
+    }
+    .box h3{
+        font-size: 1rem;
+    }
+    .box-2 h3{
+        font-size: 1rem;
+    }
+    .logo h1{
+        font-size: 1.6rem;
+    }
+    .header .img {
+        width: 100%; 
+        height: 50vh;
+       
+             
+    }
+
+    
+}
+@media (max-width:600px){
+    .img{
+        width: 100%;
+        height: 80vh;
+    }
+    .footer-2{
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-1a{
+        margin-left: -20px;
+        width: 67%;
+    }
+    .box-2{
+        width: 40%;
+    }
+    .container-1 .h1 h1{
+        font-size: 1.8rem;
+    }
+    .img{
+        width: 100%;
+        height: 80vh;
+    }
+    .header .img {
+        width: 100%; 
+        height: 50vh;
+       
+             
+    }
+    .logo{
+        top: 18%;
+    }
+}
+@media (max-width:500px){
+    .box{
+        width: 40%;
+    }
+    .container-1 .h1 h1{
+        font-size: 1.6rem;
+    }
+    .footer-1a{
+        margin-left: -20px;
+        width:100%;
+    }
+    .container-1 .h2 h2{
+        font-size: 1.2rem;
+    }
+    .header .img {
+        width: 100%; 
+        height: 45vh;
+       
+             
+    }
+    .logo h1{
+        font-size: 1.2rem;
+    }
+    .logo{
+        top: 18%;
+    }
+    
+}
+@media (max-width:400px){
+    .header .img {
+        width: 100%; 
+        height: 40vh;
+       
+             
+    }
+    .logo h1{
+        font-size: 1rem;
+    }
+    .logo{
+        top: 15%;
+    }
+    .container-1 .h1 h1{
+        font-size: 1.4rem;
+    }
+    .container-1 .h1 img{
+        width:15%;
+    }
+    .box{
+        width: 70%;
+    }
+    .box-1 .h1 h1{
+        font-size: 1.3rem;
+        
+    }
+    .box-1 .h1 {
+        margin-left:  30px;
+        
+        
+    }
+    .box-2{
+        width: 70%;
+    }
+    .footer-1a{
+        width: 120%;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
